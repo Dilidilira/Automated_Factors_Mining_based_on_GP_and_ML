@@ -20,7 +20,7 @@ def Alpha191_compare(factors_df,lt_start_datetime='2019-11-01 08:00:00',end_date
         Factors_data=factors_df.loc[date_time]
         if t < len(datetime_index)-1:            
             pos=Target_Returns.index.get_loc(date_time)
-            Nextstep_returns=Target_Returns.iloc[(pos+1)]
+            Nextstep_returns=Target_Returns.iloc[pos+1]
         else:
             pos=factors_df.index.get_loc(date_time)
             Nextstep_returns=Returns.iloc[pos+1]
