@@ -1,4 +1,4 @@
-# Automated Factor Mining Project White Paper
+# Automated Factor Discovery Project White Paper
 
 ## Project Overview
 
